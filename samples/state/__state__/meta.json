@@ -1,0 +1,61 @@
+{
+  "states": {
+    "system": {
+      "name": "system",
+      "flowType": "SystemState",
+      "actions": {
+        "setCards": {
+          "name": "setCards",
+          "flowType": "SetCards",
+          "id": "system/SET_CARDS",
+          "reducer": true
+        },
+        "setColumns": {
+          "name": "setColumns",
+          "flowType": "SetColumns",
+          "id": "system/SET_COLUMNS",
+          "reducer": true
+        },
+        "setProjects": {
+          "name": "setProjects",
+          "flowType": "SetProjects",
+          "id": "system/SET_PROJECTS",
+          "reducer": true
+        },
+        "setCardToProject": {
+          "name": "setCardToProject",
+          "flowType": "SetCardToProject",
+          "id": "system/SET_CARD_TO_PROJECT",
+          "reducer": true
+        },
+        "setProjectCards": {
+          "name": "setProjectCards",
+          "flowType": "SetProjectCards",
+          "id": "system/SET_PROJECT_CARDS",
+          "reducer": true
+        }
+      },
+      "channels": {},
+      "effects": {
+        "init": {
+          "name": "init"
+        }
+      },
+      "reducers": {},
+      "selectors": {
+        "getProjectList": {
+          "name": "getProjectList"
+        },
+        "getProjectCards": {
+          "name": "getProjectCards"
+        },
+        "getColumnCards": {
+          "name": "getColumnCards"
+        },
+        "getProjectCardsByColumns": {
+          "name": "getProjectCardsByColumns"
+        }
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@
   "dependencies": {
     "@babel/generator": "^7.0.0",
     "@babel/parser": "^7.0.0",
+    "@babel/traverse": "^7.0.0",
     "fs-extra": "^7.0.0"
   }
 }
